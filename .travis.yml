@@ -1,20 +1,15 @@
-dist: trusty
 sudo: required
-language: python
-python:
-    - 3.4_with_system_site_packages
+services:
+  - docker
 branches:
     - master
 before_install:
-    - sudo apt-get -y update
-    - sudo apt-get install -y python3-pip python3-gi python3-gobject gir1.2-gtk-3.0 libgtk-3-dev libgirepository1.0-dev
-install:
-    - pip3 install --upgrade pip
-    - pip3 install cairosvg pycodestyle jsonschema
+  - docker pull bilelmoussaoui/numix-core-devel
+  - docker run -d --name tests bilelmoussaoui/numix-core-devel bash
 script:
-    - sh ./tests/pycodestyle.sh
-    - python3 ./tests/schema.py
-    - python3 ./tests/db_entry.py
-    - python3 ./tests/icons_entry.py
-    - python3 ./tests/ordered_db.py
-    - python3 ./tests/icon_cache.py
+    - docker exec tests sh ./tests/pycodestyle.sh
+    - docker exec tests python3 ./tests/schema.py
+    - docker exec tests python3 ./tests/db_entry.py
+    - docker exec tests python3 ./tests/icons_entry.py
+    - docker exec tests python3 ./tests/ordered_db.py
+    - docker exec tests python3 ./tests/icon_cache.py
