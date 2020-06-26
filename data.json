@@ -3499,6 +3499,14 @@
             "root": "catia"
         }
     },
+    "cats-are-liquid": {
+        "linux": {
+            "root": "steam_icon_498330",
+            "symlinks": [
+                "steam_icon_1188080"
+            ]
+        }
+    },
     "cave-story": {
         "linux": {
             "root": "cave-story",
