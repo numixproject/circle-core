@@ -808,6 +808,11 @@
             "root": "AirPortUtility"
         }
     },
+    "airstrike": {
+        "linux": {
+            "root": "airstrike"
+        }
+    },
     "akira": {
         "linux": {
             "root": "akira",
