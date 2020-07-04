@@ -23933,6 +23933,15 @@
             "root": "zenmap"
         }
     },
+    "zero-k": {
+        "linux": {
+            "root": "zero-k",
+            "symlinks": [
+                "steam_icon_334920",
+                "Zero-K"
+            ]
+        }
+    },
     "zeroinstall": {
         "linux": {
             "root": "zeroinstall"
