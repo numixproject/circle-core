@@ -4757,6 +4757,11 @@
             ]
         }
     },
+    "cutepeaks": {
+        "linux": {
+            "root": "cutepeaks"
+         }
+    },
     "cutter": {
         "linux": {
             "root": "cutter",
