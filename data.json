@@ -4980,6 +4980,11 @@
             ]
         }
     },
+    "delir": {
+        "linux": {
+            "root": "delir"
+        }
+    },
     "deltachat": {
         "linux": {
             "root": "deltachat",
