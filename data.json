@@ -257,6 +257,11 @@
             "root": "abrowser"
         }
     },
+    "abuse-game": {
+        "linux": {
+            "root": "abuse"
+        }
+    },
     "accerciser": {
         "linux": {
             "root": "accerciser"
