@@ -23926,6 +23926,11 @@
             "root": "wxglade"
         }
     },
+    "wxlame": {
+        "linux": {
+            "root": "wxlame"
+        }
+    },
     "wxmaxima": {
         "linux": {
             "root": "wxmaxima",
