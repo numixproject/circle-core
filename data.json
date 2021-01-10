@@ -2001,6 +2001,16 @@
             ]
         }
     },
+    "baidu-cloud": {
+        "linux": {
+            "root": "bcloud"
+        }
+    },
+    "baidu-netdisk": {
+        "linux": {
+            "root": "baidunetdisk"
+        }
+    },
     "baiji-manga-viewer": {
         "linux": {
             "root": "baiji-manga-viewer"
@@ -2115,11 +2125,6 @@
     "battleblock-theater": {
         "linux": {
             "root": "steam_icon_238460"
-        }
-    },
-    "bcloud": {
-        "linux": {
-            "root": "bcloud"
         }
     },
     "beaker": {
