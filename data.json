@@ -1633,6 +1633,11 @@
             "root": "ascii-design"
         }
     },
+    "asciidocfx": {
+        "linux": {
+            "root": "asciidocfx"
+        }
+    },
     "ase": {
         "linux": {
             "root": "ase",
