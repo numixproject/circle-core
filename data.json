@@ -11202,6 +11202,15 @@
             "root": "ignuit"
         }
     },
+    "ilspy": {
+        "linux": {
+            "root": "ilspy",
+            "symlinks": [
+                "avaloniailspy",
+                "ILSpy"
+            ]
+        }
+    },
     "image-optimizer": {
         "linux": {
             "root": "image-optimizer",
