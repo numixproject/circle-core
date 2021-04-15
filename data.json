@@ -3940,6 +3940,11 @@
             "root": "carla-control"
         }
     },
+    "carrion": {
+        "linux": {
+            "root": "steam_icon_953490"
+        }
+    },
     "castle-crashers": {
         "linux": {
             "root": "steam_icon_204360",
