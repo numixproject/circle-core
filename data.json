@@ -6732,6 +6732,11 @@
             "root": "eko"
         }
     },
+    "electorrent": {
+        "linux": {
+            "electorrent"
+        }
+    },
     "electric": {
         "linux": {
             "root": "electric",
