@@ -8265,6 +8265,11 @@
             "root": "funguloids"
         }
     },
+    "funkin": {
+        "linux": {
+            "root": "funkin"
+        }
+    },
     "furiusisomount": {
         "linux": {
             "root": "furiusisomount"
